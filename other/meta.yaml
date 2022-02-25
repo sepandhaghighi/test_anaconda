@@ -1,5 +1,5 @@
 {% set name = "test_anaconda" %}
-{% set version = "0.1" %}
+{% set version = "0.3" %}
 
 package:
     name: {{ name|lower }}
@@ -23,7 +23,5 @@ about:
     license_family: MIT
     summary: Test Anaconda
 extra:
-    copy_test_source_files: true
-    final: true
     recipe-maintainers:
         - sepandhaghighi
