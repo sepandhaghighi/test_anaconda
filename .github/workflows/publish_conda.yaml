@@ -16,3 +16,4 @@ jobs:
         with:
           subDir: 'other'
           AnacondaToken: ${{ secrets.ANACONDA_TOKEN }}
+          platforms: 'noarch'
