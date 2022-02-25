@@ -35,7 +35,7 @@ def read_description():
 setup(
     name='test_anaconda',
     packages=['test_anaconda'],
-    version='0.4',
+    version='0.6',
     description='ASCII Art Library For Python',
     long_description=read_description(),
     long_description_content_type='text/markdown',
