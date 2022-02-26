@@ -1,5 +1,5 @@
 {% set name = "test_anaconda" %}
-{% set version = "0.7" %}
+{% set version = "0.8" %}
 
 package:
     name: {{ name|lower }}
@@ -22,6 +22,7 @@ about:
     home: https://github.com/sepandhaghighi/test_anaconda
     license: MIT
     license_family: MIT
+    license_file: LICENSE
     summary: Test Anaconda
     description: |
         ASCII art is also known as "computer text art".
@@ -30,6 +31,7 @@ about:
         ART is a Python lib for text converting to ASCII art fancy.
         
         Website: https://www.4r7.ir
+        
         Repo: https://github.com/sepandhaghighi/art
 extra:
     recipe-maintainers:
