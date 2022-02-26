@@ -1,5 +1,5 @@
 {% set name = "test_anaconda" %}
-{% set version = "0.6" %}
+{% set version = "0.7" %}
 
 package:
     name: {{ name|lower }}
@@ -23,6 +23,14 @@ about:
     license: MIT
     license_family: MIT
     summary: Test Anaconda
+    description: |
+        ASCII art is also known as "computer text art".
+        It involves the smart placement of typed special characters or
+        letters to make a visual shape that is spread over multiple lines of text.
+        ART is a Python lib for text converting to ASCII art fancy.
+        
+        Website: https://www.4r7.ir
+        Repo: https://github.com/sepandhaghighi/art
 extra:
     recipe-maintainers:
         - sepandhaghighi
